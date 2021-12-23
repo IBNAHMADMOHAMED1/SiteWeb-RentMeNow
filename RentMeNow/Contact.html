@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContact.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f55aaeb81c.js" crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="header" class="header">
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html">Ren<span class="text-rose">tMeN</span><span>ow</span><span
+                        class="point">.</span></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#">Gallerie</a></li>
+                        <li><a href="#">Réservation</a></li>
+                        <li><a href="#" class="active">Accueil<span>.</span></a></li>
+                    </ul>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <h1>contact us</h1>
+        </div>
+        <div class="row">
+            <h4 style="text-align:center">We'd love to hear from you!</h4>
+        </div>
+        <div class="row input-container">
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <input id="name" type="text" required />
+                    <label>Name</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input">
+                    <input id="Email" type="text" required />
+                    <label>Email</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="styled-input" style="float:right;">
+                    <input id="Objet" type="text" required />
+                    <label>Objet</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="styled-input wide">
+                    <textarea id="Message" required></textarea>
+                    <label>Message</label>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div onclick="senMessag()" class="btn-lrg submit-btn">Send Message</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+
+
+</body>
+
+</html>
